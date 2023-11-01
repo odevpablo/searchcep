@@ -1,27 +1,17 @@
-# Searchcep
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
+# Search CEP (Procurar CEP)
+ Este é um aplicativo de consulta de CEP desenvolvido em Angular. Ele permite que os usuários insiram um CEP e obtenham informações sobre a rua, cidade e estado correspondentes.
 
-## Development server
+## Como Executar o Aplicativo
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. Certifique-se de ter o Angular CLI instalado. Se não, você pode instalá-lo usando o comando: `npm install -g @angular/cli`
 
-## Code scaffolding
+2. Clone este repositório para o seu ambiente local.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+3. Navegue até o diretório do projeto e execute o comando `ng serve` para iniciar o servidor de desenvolvimento.
 
-## Build
+4. Abra um navegador e acesse `http://localhost:4200/` para usar o aplicativo.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Autor
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+[@odevpablo]
