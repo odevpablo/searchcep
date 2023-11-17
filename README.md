@@ -1,5 +1,5 @@
 
-# Search CEP (Procurar CEP) ![Angular](https://img.shields.io/badge/Angular-000?style=for-the-badge&logo=angular&logoColor=C3002F)
+# Search CEP (Consulte o CEP) ![Angular](https://img.shields.io/badge/Angular-000?style=for-the-badge&logo=angular&logoColor=C3002F)
 
  Este é um aplicativo de consulta de CEP desenvolvido em Angular. Ele permite que os usuários insiram um CEP e obtenham informações sobre a rua, cidade e estado correspondentes.
 
