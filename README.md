@@ -8,7 +8,8 @@
 1. Certifique-se de ter o Angular CLI instalado. Se não, você pode instalá-lo usando o comando: `npm install -g @angular/cli`
 
 2. Clone este repositório para o seu ambiente local.
-
+   repositório : `https://github.com/odevpablo/searchcep`
+   
 3. Navegue até o diretório do projeto e execute o comando `ng serve` para iniciar o servidor de desenvolvimento.
 
 4. Abra um navegador e acesse `http://localhost:4200/` para usar o aplicativo.
