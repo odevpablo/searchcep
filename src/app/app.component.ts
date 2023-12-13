@@ -33,7 +33,7 @@ export class AppComponent {
   pesquisa() {
     this.espera = true;
     this.cep = this.cep.replace(/\D/g, '');
-    const url = 'http://viacep.com.br/ws/' + this.cep + '/json/';
+    const url = 'https://viacep.com.br/ws/' + this.cep + '/json/';
 
     this.http.get(url).subscribe((res: any) => {
       this.endereco = res;
