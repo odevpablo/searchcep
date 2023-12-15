@@ -1,42 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Search CEP</title>
 </head>
-<body>
-  
-  <h3>Consultar CEP</h3>
-  <form 
-    class=""
-    #cepForm
-    (ngSubmit)="pesquisa()">
 
+<body>
+  <h3>Consultar CEP</h3>
+  <form class="" #cepForm (ngSubmit)="pesquisa()">
     <div>
-      <label for="cep">CEP:</label>
       <input name="cep" type="text" [(ngModel)]="cep">
     </div>
-    
     <div class="btn btn-primary btn-sm btn-icon-split">
       <span class="icon text-white-80">
-        <i class="fas fa-home"></i>
+
       </span>
-      <button class="btn btn-primary btn-sm" type="submit">Pesquisar</button>
+      <button id="search" class="btn btn-primary btn-sm" type="submit">Pesquisar</button>
     </div>
   </form>
-  
   <br>
-  
   <div class="ml-2 spinner-border spinner-border-sm" [hidden]="!espera"></div>
-  
-  <div id="resultado"  class="shadow-lg mx-4" [hidden]="!pesquisado">
-    <b>CEP pesquisado:</b> {{cep}}
-    <br><b>Rua encontrada:</b> {{retorno.rua}}
-    <br><b>Na cidade:</b> {{retorno.cidade}}
-    <br><b>Do estado: </b>{{retorno.estado}}
-    <br><br><br><button (click)="limpa()">Reinicia</button>
- </div>
-
+  <div id="resultado" class="shadow-lg mx-4" [hidden]="!pesquisado">
+    <b>CEP pesquisado: {{cep}}</b>
+    <br><b>Rua:{{retorno.rua}}</b>
+    <br><b>Cidade: {{retorno.cidade}}</b>
+    <br><b>Estado:{{retorno.estado}}</b>
+    <br><br>
+    <button (click)="limpa()">Nova Pesquisa</button><br>
+  </div>
+  <div class="info">
+    <i class="fas fa-check"></i>
+  </div>
+ 
 </body>
+
 </html>

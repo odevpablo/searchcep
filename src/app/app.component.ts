@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
 @Component({
@@ -6,9 +6,8 @@ import { HttpClient } from '@angular/common/http';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title = 'searchcep';
-  constructor(private http: HttpClient) { }
+export class AppComponent  {
+ 
 
   cep: string = '';
   endereco: {
@@ -29,6 +28,8 @@ export class AppComponent {
 
   pesquisado = false;
   espera = false;
+
+  constructor(private http: HttpClient) { }
 
   pesquisa() {
     this.espera = true;
