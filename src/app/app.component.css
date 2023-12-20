@@ -34,12 +34,18 @@ form {
 button{
   margin-top: 10px;
   margin-left: 25px;
+  font-weight: bold;
+  background-color: #fb3a29;
+  border: none;
+  border-radius: 1em;
+
 }
 #search{
   width: 100px;
   height: 50px;
 }
 input{
+  border: none;
   border-radius: 3px;
   margin-left: 5px;
 }
@@ -60,7 +66,10 @@ input{
 }
 #resultado button{
   position: absolute;
-  left: 50px;
+  left: 45px;
+  padding: 10px;
+  font-weight: bold;
+
 }
 .info{
   position: absolute;
