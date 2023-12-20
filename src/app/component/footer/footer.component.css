@@ -8,4 +8,12 @@ footer {
     left: 5px;
     width: 98%;
   }
+  @media (max-width: 600px) {
+    footer{
+        width: 90vw;
+        left: 5px;
+        top: 92%;
+    }
+    
+  }
   

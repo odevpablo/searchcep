@@ -76,3 +76,21 @@ input{
   display: flex;
   top: 500px;
 }
+
+@media (max-width: 600px) {
+  
+  h3{
+    top: 20%;
+  }
+
+  form{
+    top: 30%;
+  }
+  
+  #resultado{
+    top: 50%;
+  }
+  #resultado button{
+    top: 80%;
+  }
+}
